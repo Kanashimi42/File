@@ -10,4 +10,10 @@ int main()
 	b.Print();
 	b.Input();
 	b.Print();
+	cout << "Testing setters" << endl;
+	b.SetModel("Audi A5");
+	b.SetColor("White");
+	b.SetPrice(24000);
+	b.SetYear(2021);
+	b.Print();
 }
